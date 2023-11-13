@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+.bg-yellow {
+background-color: #FFFFDD;
+}
+
+.text-italic {
+font-style: italic;
+}
+
+.text-bold {
+  font-weight: 500;
+}
+
+.container {
+  width:900px;
+  margin: 0 auto;
+}

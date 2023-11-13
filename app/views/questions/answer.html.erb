@@ -1,0 +1,12 @@
+
+<div class="border-start border-secondary border-3 p-2 mt-5">
+  <p><%=@question%></p>
+  <p class="text-italic">-You</p>
+</div>
+
+<div class="border-start border-secondary border-3 p-2 mt-5 mb-5 bg-yellow">
+  <p class="text-bold"><%=@answer%></p>
+  <p class="text-italic">-Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
